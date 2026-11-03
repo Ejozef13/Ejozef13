@@ -1,5 +1,3 @@
-# 👋 Hi, I'm Enrique
-
 ## 🧭 About Me
 
 I'm Enrique Mezarina Rodriguez, a Computer Science student at George Mason University interested in artificial intelligence and machine learning. I earned my A.S. in Computer Science from Northern Virginia Community College and am working toward my bachelor's degree, expected in May 2028.

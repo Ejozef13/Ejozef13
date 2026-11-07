@@ -1,49 +1,41 @@
-## 🧭 About Me
+## About Me
 
-I'm Enrique Mezarina Rodriguez, a Computer Science student at George Mason University interested in artificial intelligence and machine learning. I earned my A.S. in Computer Science from Northern Virginia Community College and am working toward my bachelor's degree, expected in May 2028.
+I'm **Enrique Mezarina Rodriguez**, a Computer Science student at **George Mason University**, graduating in **May 2028**. I earned my A.S. in Computer Science from Northern Virginia Community College.
 
-I enjoy building tools I can use every day—from coding practice powered by local language models to apps that keep vehicle maintenance organized. My homelab is where I explore Linux, virtual machines, storage, and self-hosted services.
+I build software around things I use every day: AI assistants, music discovery, coding practice, and vehicle maintenance. My main interests are **AI agents, machine learning, and reliable application design**. I enjoy connecting models to useful tools, building the data pipelines behind them, and testing how the whole system behaves when something goes wrong.
 
-A few things I've been building:
+### What I'm building
 
-- 🧠 **AM — Local AI Coding Practice:** A browser-based study app that turns topics and notes into debugging exercises and progressive hints, with validation of generated solutions, restricted Docker runners, and SQLite-backed study history.
-- 🚗 **Auto-Maintenance:** A Python desktop app for tracking service records across multiple vehicles, with search, CSV export, backups, and data validation.
-- 🛠️ **Local AI & Homelab:** An Ollama, Open WebUI, and Qdrant stack with AMD GPU acceleration, alongside Proxmox and TrueNAS infrastructure, WireGuard remote access, and Prometheus/Grafana monitoring.
+- **[April — Local AI Agent & Voice Companion](https://github.com/Ejozef13/April):** A Python/FastAPI assistant that coordinates local speech recognition, Ollama inference, and speech synthesis. It combines source-cited web search, approved-folder retrieval, and editable persistent memory with a browser interface and optional Qt tray companion. I focus on bounded tool use, explicit permissions, cancellation, and recovery. The desktop voice workflow is user-tested; personal email/calendar integration and Raspberry Pi deployment are still in progress.
+- **[Audino — Machine Learning for Music Discovery](https://github.com/Ejozef13/Audino):** A Python/NumPy/SQLite listening analytics and recommendation prototype. I implemented implicit-feedback alternating least squares (ALS), popularity and artist-affinity baselines, chronological evaluation with Recall@K and NDCG@K, and separate discovery/repeat-listening tasks. The app includes validated event imports, a listening dashboard, and SVG/Markdown summaries. Current experiments use synthetic fixtures; real-data evaluation and a live Navidrome connection are next steps.
+- **[AM — Local AI Coding Practice](https://github.com/Ejozef13/AM):** A browser-based study app that turns topics and notes into debugging exercises for Python, Java, C, and C++. Structured generation, a separate blind review, and execution checks validate exercises before use. Restricted Docker runners grade submissions, while SQLite stores progress, resumable drafts, goals, and review scheduling.
+- **[Auto-Maintenance — Multi-Car Service Tracker](https://github.com/Ejozef13/Auto-Maintenance):** A Python/Tkinter desktop application with vehicle-specific records, searchable history, CSV export, and input validation. Storage is separated from the interface, with integer-cent costs, temporary-file replacement, backups, and legacy-data migration.
 
-Outside of tech, my work in parks and recreation includes facility operations, water park supervision, and teaching lifeguard rescue and emergency-response skills.
+### More of my work
 
-## 🤝 Connect
+- **[Self-Hosted Homelab](https://github.com/Ejozef13/server):** Proxmox, TrueNAS/ZFS, Debian, Docker Compose, Jellyfin, and Navidrome, with persistent storage and service startup dependencies. A dedicated WireGuard VM uses nftables forwarding rules; tunnel access is tested on the local network, with outside-home access still planned.
+- **[Pokémon Terminal](https://github.com/Ejozef13/pokemon-terminal):** A Python terminal dashboard with GIF animation, local hardware information, and a calendar, integrated with Fish on Linux and PowerShell on Windows. Includes platform-specific installers and regression tests.
+- **[Venusaur IDE](https://github.com/Ejozef13/venusaur-ide):** My portable Neovim/LazyVim, tmux, and terminal configuration, with a custom dashboard and development launch scripts.
+- **[Patriot Marketplace](https://github.com/Ejozef13/Marketplace) — in progress:** A team starter using Next.js, React, TypeScript, and Supabase. My documented role covers product scope, task planning, and acceptance. The repository includes the app foundation, initial schema, access-test scripts, and browser checks; marketplace features and deployment are not complete.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ejozef13-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ejozef13)
+## Skills & Tools
 
-## 💻 Tech Stack
+**Programming:** Python, Java, C, Bash, JavaScript, HTML/CSS, SQL (SQLite); PowerShell and Fish scripting.
 
-**Languages**
+**AI agents & applications:** Local LLM integration with Ollama, tool routing, retrieval-augmented generation (RAG), SQLite FTS5 search, persistent assistant memory, Whisper speech recognition, Piper speech synthesis, Vosk wake-phrase recognition, SearXNG, and structured model-output validation.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+**Machine learning:** NumPy, implicit-feedback recommendation systems, matrix factorization with ALS, popularity/artist-affinity baselines, chronological train/evaluation splits, Recall@K, NDCG@K, cold-start fallbacks, and model artifact persistence.
 
-**AI & Data**
+**Application development:** FastAPI, HTTP APIs, WebSockets, SQLite, JSON/CSV data handling, Tkinter, PySide6/Qt, input validation, state machines, cancellation, and subprocess lifecycle management.
 
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![RAG](https://img.shields.io/badge/Retrieval--Augmented_Generation-6554C0?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![AMD ROCm](https://img.shields.io/badge/AMD_ROCm-ED1C24?style=flat-square&logo=amd&logoColor=white)
+**Testing & engineering:** Git/GitHub, Python unittest, fixture-based regression tests, Playwright browser checks, restricted Docker execution, dependency pinning, and technical documentation.
 
-**Systems & Tools**
+**Systems:** Linux (CachyOS/Arch and Debian), Docker/Compose, local GPU inference with AMD ROCm, Proxmox, TrueNAS/ZFS, SMB, systemd, WireGuard, and nftables. Additional homelab experience includes Qdrant, Open WebUI, Prometheus, and Grafana.
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
-![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=flat-square&logo=truenas&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+**Currently exploring:** TypeScript, React, Next.js, Supabase/PostgreSQL, and GitHub Actions through the Marketplace team starter.
 
-## 📊 GitHub Stats
+## Beyond the Code
 
-[![Enrique's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ejozef13&show_icons=true&theme=github_dark&hide_border=true)](https://github.com/Ejozef13?tab=repositories)
+My work in parks and recreation includes facility operations, water park supervision, and teaching lifeguard rescue and emergency-response skills. It has taught me to communicate clearly, coordinate people, and stay organized when priorities change.
+
+[Resume (PDF)](resume/Enrique_Mezarina_Resume.pdf) · [Editable resume (Word)](resume/Enrique_Mezarina_Resume.docx) · [Connect with me on GitHub](https://github.com/Ejozef13)
